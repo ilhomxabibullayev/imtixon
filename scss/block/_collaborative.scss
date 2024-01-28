@@ -1,0 +1,111 @@
+.collaborative {
+    padding-top: 150px;
+}
+
+.collaborative__content {
+    display: flex;
+    gap: 84px;
+}
+
+.collaborative__img {
+    background-repeat: no-repeat;
+    background-image: url("../img/collabrative-img-d.svg");
+    width: 541px;
+    height: 451px;
+}
+
+.collaborative__title {
+    color: #22343D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.collaborative__sub-title {
+    color: #22343D;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.collaborative__text {
+    color: #22343D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 426px;
+    margin-bottom: 16px;
+}
+
+.collaborative__sub2-title {
+    color: #22343D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+
+.collaborative__sub-text {
+    color: #22343D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 426px;
+    margin-bottom: 24px;
+}
+
+.collaborative__sub3-title {
+    color: #22343D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+
+.collaborative__sub2-text {
+    color: #22343D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 426px;
+}
+
+@media screen and (max-width: 500px) {
+    .collaborative {
+        padding-top: 97px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .collaborative__content {
+        flex-direction: column-reverse;
+    }
+
+    .collaborative__img {
+        background-repeat: no-repeat;
+        background-image: url("../img/collabrative-img-t.svg");
+        width: 360px;
+        height: 291px;
+    }
+
+    .collaborative__text {
+        width: 323px;
+    }
+
+    .collaborative__sub-text {
+        width: 303px;
+    }
+
+    .collaborative__sub2-text {
+        width: 328px;
+    }
+}

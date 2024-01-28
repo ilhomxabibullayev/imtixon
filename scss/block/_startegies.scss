@@ -1,0 +1,123 @@
+.startegies {
+    padding-top: 150px;
+    padding-left: 146px;
+    padding-right: 146px;
+}
+
+.startegies__content {
+    text-align: center;
+}
+
+.startegies__title {
+    color: #22343D;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+    text-align: start;
+}
+
+.startegies__text {
+    color: #22343D;
+    text-align: start;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 693px;
+    margin-bottom: 33px;
+}
+
+.startegies__block {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    text-align: start;
+    margin-bottom: 64px;
+}
+
+.startegies__list {
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.startegies__img {
+    background-repeat: no-repeat;
+    background-image: url("../img/startegeis-img-d.jpg");
+    width: 348px;
+    height: 185px;
+    margin-bottom: 24px;
+}
+
+.startegies__img2 {
+    background-repeat: no-repeat;
+    background-image: url("../img/startegeis-img2-d.jpg");
+    width: 348px;
+    height: 185px;
+    margin-bottom: 24px;
+}
+
+.startegies__img3 {
+    background-repeat: no-repeat;
+    background-image: url("../img/startegeis-img3-d.jpg");
+    width: 348px;
+    height: 185px;
+    margin-bottom: 24px;
+}
+
+.startegies__sub-title {
+    color: #22343dca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 12px;
+}
+
+.startegies__active {
+    color: #22343D;
+}
+
+.startegies__sub-text {
+    color: #22343D;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    width: 284px;
+}
+
+.startegies__sub2-text {
+    color: #02897A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    width: 284px;
+}
+
+@media screen and (max-width: 500px) {
+    .startegies {
+        padding-top: 100px;
+        padding-left: 33px;
+        padding-right: 30px;
+    }
+
+    .startegies__block {
+        flex-direction: column;
+    }
+
+    .startegies__title {
+        text-align: center;
+    }
+
+    .startegies__text {
+        width: 339px;
+        text-align: center;
+        margin-left: auto;margin-right: auto;
+    }
+}
